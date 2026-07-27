@@ -1,0 +1,5 @@
+[wallpaper]
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/chris/Pictures/Wallpapers/tmnt_by_the_sea.jpg"
+    [wallpaper.monitors.DP-2]
+    path = "/home/chris/Pictures/Wallpapers/tmnt_silhouette_wallpaper.jpg"

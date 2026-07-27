@@ -1,0 +1,32 @@
+{
+  config,
+  pkgs,
+  ...
+}: {
+  imports = [
+    ./barbar.nix
+    ./nvim-tree.nix
+    ./startify.nix
+    ./telescope.nix
+    ./lualine.nix
+    ./comment.nix
+    ./floaterm.nix
+    ./aerial.nix
+    ./auto-session.nix
+    ./conform.nix
+    ./lsp.nix
+    ./dap.nix
+    ./easy-dotnet.nix
+    ./surround.nix
+    ./cmp.nix
+    ./trouble.nix
+    ./lspkind.nix
+    ./gitsigns.nix
+    ./indent-blankline.nix
+    ./lint.nix
+    ./substitute.nix
+    ./wrapping.nix
+    ./snacks.nix
+    ./p4nvim.nix
+  ];
+}

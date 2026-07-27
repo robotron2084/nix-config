@@ -1,0 +1,1 @@
+yt-dlp -x --parse-metadata "artist:(?s)(?P<meta_album_artist>.+)" --add-metadata --embed-thumbnail "$1" 
